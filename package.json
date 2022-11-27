@@ -1,0 +1,30 @@
+{
+  "name": "luna",
+  "version": "1.0.0",
+  "description": "luna-beta for Rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxrun1/luna.git"
+  },
+  "keywords": [
+    "luna",
+    "api"
+  ],
+  "author": "ferdiwardiyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linuxrun1/luna/issues"
+  },
+  "homepage": "https://github.com/linuxrun1/luna#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ssl-express-www": "^3.0.10",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.2"
+  }
+}
