@@ -3,7 +3,7 @@ __path = process.cwd()
 var express = require('express');
 var router = express.Router();
 const loghandler = require('../lib/msg');
-const listkey = ["ciss"];
+const listkey = ["kiw"];
 
 router.get('/', (req, res) => {
     res.json(loghandler.error)
